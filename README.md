@@ -72,6 +72,7 @@ The HPO strategy implemented in `hpo/half_grid_random.py` is based on our publis
 > **Title:** An Efficient Architecture Selection Approach for PINNs Applied to Electromagnetic Problems
 
 > **Publication:** IEEE Transactions on Magnetics, 2025
+
 > **Link:** [https://ieeexplore.ieee.org/document/11184611](https://ieeexplore.ieee.org/document/11184611)
 
 If you use this specific HPO strategy in your research, please cite our paper.
