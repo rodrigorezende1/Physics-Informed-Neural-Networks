@@ -69,8 +69,8 @@ python benchmark_all.py
 
 The HPO strategy implemented in `hpo/half_grid_random.py` is based on our published research, which demonstrates a more efficient approach to hyperparameter tuning for complex models.
 
-> **Title:** A Mixed Grid-Random Search Strategy for Hyper-Parameter Optimization
-> **Publication:** 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+> **Title:** An Efficient Architecture Selection Approach for PINNs Applied to Electromagnetic Problems
+> **Publication:** IEEE Transactions on Magnetics, 2025
 > **Link:** [https://ieeexplore.ieee.org/document/11184611](https://ieeexplore.ieee.org/document/11184611)
 
 If you use this specific HPO strategy in your research, please cite our paper.
