@@ -258,7 +258,7 @@ magnitude_step = magnitude[::step, ::step]
 #######
 ###H CST
 #####
-data = np.loadtxt("C:/Users/TET1/Desktop/theorieund PinnA/Data_H_field_v2.0.txt") ## import data
+data = np.loadtxt("C:/...") ## import data
 #Data
 x_Hx = data[:,0]
 x_Hy = data[:,1]

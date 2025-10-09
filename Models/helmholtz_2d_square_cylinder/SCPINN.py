@@ -295,7 +295,7 @@ Hy = np.abs(Hy_complex)
 #######
 ###H CST
 #####
-data = np.loadtxt("D:/PINNs/Data_H_field_Open_BC_v1.0.txt") ## import data
+data = np.loadtxt("C:/...") ## import data
 
 #Data
 x_Hx = data[:,0]/1000
@@ -306,7 +306,7 @@ x_Hx = x_Hx[:45]
 H_theta_x = H_theta_x[31:]
 H_theta_x = H_theta_x[:45]
 
-data2 = np.loadtxt("D:/PINNs/Data_Hy_field_Open_BC_v1.0.txt") ## import data
+data2 = np.loadtxt("C:/...") ## import data
 
 #H_theta = np.zeros([data[:,2].size,2])
 x_Hy = data2[:,0]/1000

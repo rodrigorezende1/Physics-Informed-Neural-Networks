@@ -57,12 +57,11 @@ def transform(x, y):
 # Define the subranges for layers and nodes
 # (min_layers, max_layers), (min_nodes, max_nodes)
 subranges = [
+    {"num_layers_range": (2, 4), "num_nodes_range": (50, 70)},
+    {"num_layers_range": (2, 5), "num_nodes_range": (50, 90)},
+    {"num_layers_range": (2, 6), "num_nodes_range": (50, 110)},
+    {"num_layers_range": (2, 7), "num_nodes_range": (50, 130)},
     {"num_layers_range": (2, 8), "num_nodes_range": (50, 160)},
-  #  {"num_layers_range": (2, 4), "num_nodes_range": (50, 70)},
-   # {"num_layers_range": (2, 5), "num_nodes_range": (50, 90)},
-    #{"num_layers_range": (2, 6), "num_nodes_range": (50, 110)},
-    #{"num_layers_range": (2, 7), "num_nodes_range": (50, 130)},
-    #{"num_layers_range": (2, 8), "num_nodes_range": (50, 160)},
 ]
 
 models_per_subrange = 20 # Number of random models to test in each subrange
@@ -256,7 +255,7 @@ magnitude_step = magnitude[::step, ::step]
 #######
 ###H CST
 #####
-data = np.loadtxt("C:/Users/TET1/Desktop/theorieund PinnA/Data_H_field_v2.0.txt") ## import data
+data = np.loadtxt("C:/...") ## import data
 #Data
 x_Hx = data[:,0]
 x_Hy = data[:,1]

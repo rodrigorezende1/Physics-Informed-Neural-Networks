@@ -48,23 +48,23 @@ def transform(x, y):
     return res * y
 
 
-# <<< MODIFICATION >>>: Setup for running the search multiple times
+# Setup for running the search multiple times
 num_runs = 10
 execution_times = []
 max_iterations = 10000
 
-# <<< MODIFICATION >>>: Outer loop to run the entire search 10 times
+# Outer loop to run the entire search 10 times
 for run_idx in range(num_runs):
     print(f"\n=============================================")
     print(f"========= Starting Search Run {run_idx + 1}/{num_runs} =========")
     print(f"=============================================")
 
-    # <<< MODIFICATION >>>: Set a seed for reproducibility of each run
+    # Set a seed for reproducibility of each run
     # Using the run index ensures each run is different but repeatable
     tf.random.set_seed(run_idx)
     np.random.seed(run_idx)
 
-    # <<< MODIFICATION >>>: Start timer for this specific run
+    # Start timer for this specific run
     start_run_time = time.time()
     exit_loops = False  # Reset flag for each new run
 
@@ -98,7 +98,7 @@ for run_idx in range(num_runs):
                 exit_loops = True
                 break
     
-    # <<< MODIFICATION >>>: Stop timer and record the elapsed time for the run
+    # Stop timer and record the elapsed time for the run
     end_run_time = time.time()
     elapsed_time = end_run_time - start_run_time
     execution_times.append(elapsed_time)
@@ -109,7 +109,7 @@ for run_idx in range(num_runs):
     print(f"Time for this run: {elapsed_time:.2f} seconds")
 
 
-# <<< MODIFICATION >>>: Calculate and display final statistics and plot
+# Calculate and display final statistics and plot
 print("\n=============================================")
 print("========= Final Performance Results =========")
 print("=============================================")
