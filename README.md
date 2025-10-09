@@ -29,7 +29,7 @@ The primary focus is on providing a framework for both standard PINN implementat
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/rodrigorezende1/Physics-Informed-Neural-Networks.git](https://github.com/rodrigorezende1/Physics-Informed-Neural-Networks.git)
-cd your-repo-name
+cd Physics-Informed Neural Networks for Boundary Value Problems
 ```
 
 ### 2. Set Up a Virtual Environment
