@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it. See also the related publications below."
+
+type: software
+title: "Physics-Informed Neural Networks for Boundary Value Problems"
+authors:
+  - family-names: "Rezende"
+    given-names: "Rodrigo Silva"
+repository-code: "https://github.com/rodrigorezende1/Physics-Informed-Neural-Networks"
+license: MIT
+year: 2025 # Or the year you started the repo
+
+# This section links both of your papers
+references:
+  - type: article
+    title: "An Efficient PINNs Approach Using Hard Constraints Boundary Conditions for Solving Electromagnetic Problems"
+    authors:
+      - family-names: "Rezende"
+        given-names: "Rodrigo Silva"
+      - family-names: "Schuhmann"
+        given-names: "Rolf"
+    journal: "URSI RADIO SCIENCE LETTERS"
+    year: 2025
+    volume: 7
+    doi: "10.46620/25-0032"
+    url: "https://doi.org/10.46620/25-0032"
+
+  - type: article # Use 'in-proceedings' if it was a conference
+    title: "An Efficient Architecture Selection Approach for PINNs Applied to Electromagnetic Problems"
+    authors:
+      - family-names: "Rezende"
+        given-names: "Rodrigo" # Note: Check if "Silva" should be here too
+      - family-names: "Piwonski"
+        given-names: "Albert"
+      - family-names: "Schuhmann"
+        given-names: "Rolf"
+    journal: "IEEE Transactions on Magnetics"
+    year: 2025
+    url: "https://ieeexplore.ieee.org/document/11184611"
+    # To Do
+    # doi: "10.1109/TMAG.YYYY.XXXXXXX"
+    # volume: ...
+    # number: ...
+    # pages: "..."
