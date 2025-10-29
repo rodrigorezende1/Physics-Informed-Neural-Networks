@@ -65,9 +65,21 @@ python benchmark_all.py
 
 ---
 
-## 📄 Our Research: Mixed Grid-Random Search
+## 📄 Related Publications
 
-The HPO strategy implemented in `hpo/half_grid_random.py` is based on our published research, which demonstrates a more efficient approach to hyperparameter tuning for complex models.
+This repository contains the official code for our research on PINNs and their applications.
+
+1. The Hard-Constrained PINN (HCPINN) model is based on our work demonstrating an efficient approach for solving electromagnetic problems by enforcing hard boundary conditions.
+
+> **Title:** An Efficient PINNs Approach Using Hard Constraints Boundary Conditions for Solving Electromagnetic Problems
+
+> **Publication:** URSI RADIO SCIENCE LETTERS, VOL. 7, 2025
+
+> **DOI:**: 10.46620/25-0032 (https://www.google.com/search?q=https://doi.org/10.46620/25-0032)
+
+If you use this specific HCPINN strategy in your research, please cite our paper.
+
+2. The HPO strategy implemented in `hpo/half_grid_random.py` is based on our published research, which demonstrates a more efficient approach to hyperparameter tuning for complex models.
 
 > **Title:** An Efficient Architecture Selection Approach for PINNs Applied to Electromagnetic Problems
 
@@ -90,7 +102,18 @@ If you use the code from this repository in your work, please cite it as follows
   year = {2025}
 }
 ```
-And for our HPO paper:
+If you use the Hard-Constrained (HCPINN) model, please cite our URSI paper:
+```bibtex
+@article{rezende2025efficient,
+  author  = {Rezende, Rodrigo Silva and Schuhmann, Rolf},
+  journal = {URSI RADIO SCIENCE LETTERS},
+  title   = {An Efficient PINNs Approach Using Hard Constraints Boundary Conditions for Solving Electromagnetic Problems},
+  year    = {2025},
+  volume  = {7},
+  doi     = {10.46620/25-0032}
+}
+```
+And for our HPO IEEE Transactions on Magnetics paper:
 ```bibtex
 @inproceedings{rezende2025mixed,
   title={An Efficient Architecture Selection Approach for PINNs Applied to Electromagnetic Problems},
@@ -100,7 +123,6 @@ And for our HPO paper:
   ...
 }
 ```
-
 ---
 
 ## 📜 License
