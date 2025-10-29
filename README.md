@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-This repository contains PyTorch/TensorFlow implementations of Physics-Informed Neural Networks (PINNs) for solving Boundary Value Problems (BVPs), along with a comparative analysis of several Hyperparameter Optimization (HPO) strategies.
+This repository contains PyTorch implementations of Physics-Informed Neural Networks (PINNs) for solving Boundary Value Problems (BVPs), along with a comparative analysis of several Hyperparameter Optimization (HPO) strategies.
 
 The primary focus is on providing a framework for both standard PINN implementations and efficient HPO techniques for scientific machine learning applications.
 
