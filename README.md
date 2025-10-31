@@ -117,10 +117,9 @@ And for our HPO IEEE Transactions on Magnetics paper:
 ```bibtex
 @inproceedings{rezende2025mixed,
   title={An Efficient Architecture Selection Approach for PINNs Applied to Electromagnetic Problems},
-  author={Rezende, Rodrigo and, Piwonski, Albert, and Schuhmann, Rolf},
+  author={Rezende, Rodrigo and Piwonski, Albert, and Schuhmann, Rolf},
   booktitle={IEEE Transactions on Magnetics, 2025},
   year={2025},
-  ...
 }
 ```
 ---
